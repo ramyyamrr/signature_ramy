@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signature E-mail</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!-- Inclure la bibliothèque Font Awesome -->
+    <style>
+        /* Style pour la signature */
+        .email-signature {
+            font-family: "Century Gothic", sans-serif;
+            font-size: 18px; /* Augmentation de la taille de la police */
+            display: flex;
+            align-items: center;
+        }
+
+        .left {
+            margin-right: 20px;
+        }
+
+        .left img {
+            width: 180px; /* Taille de la photo réduite */
+            border-radius: 100%; /* Crée un cercle pour la photo */
+            border: 2px solid #0000; /* Ajout d'un cadre autour de la photo */
+        }
+
+        .right {
+            border-left: 2px solid #5768f4; /* Trait séparateur à gauche des informations */
+            padding-left: 20px;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 26px; /* Augmentation de la taille de la police du nom */
+            color: #5768f4; /* Couleur du nom modifiée */
+        }
+
+        .contact-info {
+            margin-top: 10px;
+            font-size: 14px; /* Taille de la police pour les informations de contact */
+        }
+
+        .position {
+            margin-top: -15px;
+        }
+
+        .small-logo {
+            max-width: 100px; /* Ajustez la taille du logo Ozakt */
+        }
+
+        .icon {
+            font-size: 40px; /* Taille de l'icône LinkedIn */
+            color: #0bb3a9; /* Couleur de l'icône LinkedIn */
+        }
+
+        .ozakt-link {
+            font-size: 18px;
+            color: #5768f4;
+            text-decoration: none;
+            margin-left: 10px; /* Espace entre le logo Ozakt et le lien Ozakt */
+        }
+    </style>
+</head>
+<body>
+    <div class="email-signature">
+        <div class="left">
+            <img src="https://zupimages.net/up/23/41/2d45.png" alt="Votre Photo">
+        </div>
+        <div class="right">
+            <h2 class="name">RAMY AMRANI</h2> <!-- Correction de la balise de fin -->
+            <h3 class="position">Développeur</h3> <!-- Utilisation d'une classe différente pour le poste -->
+            <a href="https://www.linkedin.com/in/ramy-amrani-026046205/" target="_blank">
+                <i class="icon fab fa-linkedin"></i> <!-- Utilisation de l'icône LinkedIn -->
+            </a>
+            
+            <p class="contact-info">
+                07 52 04 59 96
+                <br>
+                ramy.amrani@ozakt.fr
+                <br>
+                <img class="small-logo" src="https://zupimages.net/up/23/41/hwr0.png" alt="">  <a href="https://www.ozakt.fr" target="_blank" class="ozakt-link">www.ozakt.fr</a> <!-- Ajout du lien Ozakt -->
+            </p>
+        </div>
+    </div>
+</body>
+</html>
